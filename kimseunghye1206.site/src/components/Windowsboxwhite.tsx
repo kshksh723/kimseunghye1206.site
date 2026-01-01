@@ -26,7 +26,7 @@ function Windowsboxwhite () {
     
     <div className="w-48 h-60 overflow-hidden rounded-lg ml-auto">
       <img 
-        src="src/img/profilePhoto.jpg" className="w-full h-full object-cover select-none" alt="profile" draggable="false" 
+        src="/img/profilePhoto.jpg" className="w-full h-full object-cover select-none" alt="profile" draggable="false" 
         onContextMenu={(e) => e.preventDefault()} />
     </div>
     <div className="mt-4 bg-white border-2 border-gray-500 p-4 h-full text-black font-mono overflow-y-auto">
