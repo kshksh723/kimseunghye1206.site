@@ -1,5 +1,5 @@
 /* Devleoper's Portfolio 창 */
-
+import profileImg from '../img/profilePhoto.jpg';
 function Windowsboxwhite () {
 
   function handleOnclick1() {
@@ -8,8 +8,8 @@ function Windowsboxwhite () {
   
 
     return (
-    <div className="w-[1000px] h-[90vh] flex flex-col bg-[#c0c0c0] shadow-[2px_2px_0px_rgba(0,0,0,1),inset_2px_2px_0px_rgba(255,255,255,1)] p-1 border-r-2 border-b-2 border-gray-800">
-        <div className="bg-[#000080] text-white flex justify-between items-center px-2 py-1 mb-1">
+    <div className="w-full max-w-[1000px] h-[90dvh] md:h-[85vh] flex flex-col bg-[#c0c0c0] shadow-[2px_2px_0px_rgba(0,0,0,1),inset_2px_2px_0px_rgba(255,255,255,1)] p-1 border-r-2 border-b-2 border-gray-800">
+        <div className="flex-none bg-[#000080] text-white flex justify-between items-center px-2 py-1 mb-1">
             <div className="flex items-center gap-2">   
                 <span className="text-xs">💻</span>
                 <span className="text-sm font-bold tracking-tight">Developer's Portfolio</span>
@@ -19,14 +19,15 @@ function Windowsboxwhite () {
                 <button className="bg-[#c0c0c0] text-black px-1 border border-white border-r-black border-b-black text-xs">x</button>
             </div>
         </div>
-  <div className="flex-1 bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-10 overflow-y-auto scrollbar-custom">
+  <div className="flex-1 bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-10 overflow-y-auto scrollbar-custom p-6 md:p-10 
+        overflow-y-auto custom-scrollbar">
         <h2 className="text-black text-3xl font-extrabold">Kim Seung Hye</h2>
                         <p className="text-gray-500/68  font-light">꾸준히 성장하는 개발자</p>
     <div>
     
     <div className="w-48 h-60 overflow-hidden rounded-lg ml-auto">
       <img 
-        src="src/img/profilePhoto.jpg" className="w-full h-full object-cover select-none" alt="profile" draggable="false" 
+        src={profileImg} className="w-full h-full object-cover select-none" alt="profile" draggable="false" 
         onContextMenu={(e) => e.preventDefault()} />
     </div>
     <div className="mt-4 bg-white border-2 border-gray-500 p-4 h-full text-black font-mono overflow-y-auto">
