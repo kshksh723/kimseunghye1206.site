@@ -52,35 +52,41 @@ function Windowsboxwhite () {
   <h3 className="text-xl font-bold mb-4 pb-1 border-b border-gray-200">
     Education.
   </h3>
-  <div className="space-y-6">
-    {/* 대학교 */}
-    <div>
-      <div className="flex justify-between items-baseline px-2">
-        <span className="font-bold text-gray-900">순천대학교 <span className="text-sm font-normal text-gray-600">(편입)</span></span>
-        <span className="text-sm text-gray-500">2021.03. ~ 2023.02.</span>
+<div className="space-y-6">
+  {/* 대학교 (순천대) */}
+  <div className="px-2">
+    <div className="flex flex-col md:flex-row md:justify-between md:items-baseline">
+      <div className="flex items-baseline gap-2">
+        <span className="font-bold text-gray-900 text-base md:text-lg">순천대학교</span>
+        <span className="text-[10px] md:text-xs font-normal text-gray-500">(편입)</span>
       </div>
-      <p className="pl-2 text-sm text-gray-700">컴퓨터공학과 졸업</p>
+      <span className="text-[11px] md:text-sm text-gray-500 font-mono mt-1 md:mt-0">2021.03. ~ 2023.02.</span>
     </div>
+    <p className="text-xs md:text-sm font-medium text-gray-800 leading-relaxed">컴퓨터공학과 졸업</p>
+  </div>
 
-    <div>
-      <div className="flex justify-between items-baseline px-2">
-        <span className="font-bold text-gray-900">전주비전대학교</span>
-        <span className="text-sm text-gray-500">2018.03. ~ 2021.02.</span>
-      </div>
-      <p className="pl-2 text-sm text-gray-700">컴퓨터정보과 졸업</p>
+  {/* 대학교 (전주비전대) */}
+  <div className="px-2">
+    <div className="flex flex-col md:flex-row md:justify-between md:items-baseline">
+      <span className="font-bold text-gray-900 text-base md:text-lg">전주비전대학교</span>
+      <span className="text-[11px] md:text-sm text-gray-500 font-mono mt-1 md:mt-0">2018.03. ~ 2021.02.</span>
     </div>
+    <p className="text-xs md:text-sm font-medium text-gray-800 leading-relaxed">컴퓨터정보과 졸업</p>
+  </div>
 
-    {/* 교육 센터 */}
-    <div>
-      <div className="flex justify-between items-baseline px-2">
-        <span className="font-bold text-gray-900">쌍용 강북 교육센터</span>
-        <span className="text-sm text-gray-500">2024.01. ~ 2024.08.</span>
-      </div>
-      <div className="pl-2 mt-1">
-        <p className="text-sm font-medium text-gray-800">실무 프로젝트 기반 빅데이터 서비스 솔루션 개발자 양성과정 8기</p>
-      </div>
+  {/* 교육 센터 */}
+  <div className="px-2">
+    <div className="flex flex-col md:flex-row md:justify-between md:items-baseline">
+      <span className="font-bold text-gray-900 text-base md:text-lg">쌍용 강북 교육센터</span>
+      <span className="text-[11px] md:text-sm text-gray-500 font-mono mt-1 md:mt-0">2024.01. ~ 2024.08.</span>
+    </div>
+    <div className="mt-1.5">
+      <p className="text-xs md:text-sm font-medium text-gray-800 leading-relaxed">
+        실무 프로젝트 기반 빅데이터 서비스 솔루션 개발자 양성과정 8기
+      </p>
     </div>
   </div>
+</div>
 </div>
  <section>
   <h3 className="text-lg md:text-xl mt-6 font-bold mb-4 pb-1 border-b border-gray-200">Career.</h3>
