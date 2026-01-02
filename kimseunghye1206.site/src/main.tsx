@@ -5,7 +5,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-      <div className="bg-[#008080] min-h-screen p-10 font-mono flex gap-10 items-start">
+      <div className="fixed inset-0 bg-[#008080] flex items-center justify-center p-4 sm:p-10 font-mono overflow-hidden">
       <App />
     </div>
   </StrictMode>,

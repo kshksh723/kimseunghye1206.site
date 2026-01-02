@@ -4,7 +4,7 @@ function Windowsbox () {
         alert("안녕하세요! 김승혜입니다.");
     }
     return (
-        <div className="w-60 bg-[#c0c0c0] border-t-2 border-l-2 border-white border-r-2 border-b-2 border-gray-800 p-1 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+        <div className="w-full bg-[#c0c0c0] border-t-2 border-l-2 border-white border-r-2 border-b-2 border-gray-800 p-1 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
             <div className="bg-blue-900 text-white flex justify-between items-center px-2 py-1 select-none">
                  <span className="text-sm font-bold">User Information</span>
                     <div className="flex gap-1">
