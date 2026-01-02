@@ -88,7 +88,7 @@ return (
       <span className="font-bold text-gray-900 text-base md:text-lg">쌍용 강북 교육센터</span>
       <span className="text-[11px] md:text-sm text-gray-500 font-mono mt-1 md:mt-0">2024.01. ~ 2024.08.</span>
     </div>
-    <div className="mt-1.5">
+    <div className="mt-1">
       <p className="text-xs md:text-sm font-medium text-gray-800 leading-relaxed">
         실무 프로젝트 기반 빅데이터 서비스 솔루션 개발자 양성과정 8기
       </p>
@@ -209,6 +209,9 @@ return (
 </div>
   <div className="mt-8 mb-6 leading-relaxed text-black ">
   <p className="text-xl font-bold  pb-1  border-b border-gray-200"> Experiences. </p>
+ <p className="text-[11px] text-gray-400 italic mb-2">
+    * 아래 프로젝트명을 클릭하면 관련 링크(GitHub, 기사 등)로 연결됩니다.
+  </p>
 <div className="mb-8 mt-3 px-1 md:px-2">
   <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
   <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
@@ -265,7 +268,7 @@ return (
 
     <span className="text-sm text-gray-600 font-medium">팀 프로젝트(5명)</span>
   </div>
-  <span className="text-sm text-gray-500 tabular-nums">2024.06.25. ~ 2024.08.08.</span>
+  <span className="text-sm text-gray-500 tabular-nums">2024.06. ~ 2024.08.</span>
 </div>
     
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
@@ -305,52 +308,128 @@ return (
 <div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
   <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
     <a 
-      href="https://github.com/kshksh723/GoGoDak.git"
-      target='_blank'
-      className="group relative flex items-center w-fit cursor-pointer"
+        href="https://github.com/kshksh723/GoGoDak.git"
+        target='_blank'
+        className="group relative flex items-center w-fit cursor-pointer"
     >
-      <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
-        닭가슴살 구매 사이트
-      </span>
-
-      <img 
-        src={projectLink} 
-        alt="link" 
-        className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
-      />
+    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+      닭가슴살 구매 사이트
+    </span>
+    <img 
+      src={projectLink} 
+      alt="link" 
+      className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+    />
     </a>
 
     <span className="text-sm text-gray-600 font-medium">팀 프로젝트(5명)</span>
   </div>
-  <span className="text-sm text-gray-500 tabular-nums">2024.05.07. ~ 2024.06.03.</span>
+  <span className="text-sm text-gray-500 tabular-nums">2024.05. ~ 2024.06.</span>
 </div>
-    
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
       <p className="text-sm font-mono text-blue-600 mt-1">
         Stack: HTML, CSS, JAVASCRIPT, JQUERY, JSP, JAVA, APACHE TOMCAT, ORACLE, EXERD, GITHUB
       </p>
-      <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
-  <li>
-    <strong>역할 :</strong> 로그인, 회원정보 수정, 주문 내역 조회, 주문확인(관리자), 회원정보 상세
-  </li>
-  <li>
-    <strong>회원 및 보안 :</strong> 유효성 검사를 적용한 회원가입/수정 및 아이디·비밀번호 찾기 로직 구현
-  </li>
-  <li>
-    <strong>주문 시스템 :</strong> 사용자 주문 내역 조회 및 상태 흐름 관리 기능 구현
-  </li>
-  <li>
-    <strong>관리자 대시보드 :</strong> 주문 현황 관리(배송 상태 변경) 및 전체 회원 정보 상세 조회 시스템 구축
-  </li>
-  <li>
-    <strong>DB 설계 및 연동 :</strong> EXERD를 활용한 10여 개 테이블 물리 모델링 및 MyBatis/JDBC 연동
-  </li>
-  <li>
-    <strong>외부 API 활용 :</strong> 카카오 주소 찾기 API 및 SMS(문자) 발송 API 연동을 통한 서비스 편의성 강화
-  </li>
-</ul>
-</ul>
+        <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+            <li>
+              <strong>역할 :</strong> 로그인, 회원정보 수정, 주문 내역 조회, 주문확인(관리자), 회원정보 상세
+            </li>
+            <li>
+              <strong>회원 및 보안 :</strong> 유효성 검사를 적용한 회원가입/수정 및 아이디·비밀번호 찾기 로직 구현
+            </li>
+            <li>
+              <strong>주문 시스템 :</strong> 사용자 주문 내역 조회 및 상태 흐름 관리 기능 구현
+            </li>
+            <li>
+              <strong>관리자 버전의 회원 관리 :</strong> 주문 현황 관리(배송 상태 변경) 및 전체 회원 정보 상세 조회 시스템 구축
+            </li>
+            <li>
+              <strong>DB 설계 및 연동 :</strong> EXERD를 활용한 10여 개 테이블 물리 모델링 및 MyBatis/JDBC 연동
+            </li>
+            <li>
+              <strong>외부 API 활용 :</strong> 카카오 주소 찾기 API 및 SMS(문자) 발송 API 연동을 통한 서비스 편의성 강화
+            </li>
+          </ul>
+    </ul>
+<div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+  <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+    <a 
+        href="https://drive.google.com/file/d/1FQepf-M2bTvFk_peU4eLv1ts1Jgj7YrX/view"
+        target='_blank'
+        className="group relative flex items-center w-fit cursor-pointer"
+    >
+    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+      기억조각
+    </span>
+    <img 
+      src={projectLink} 
+      alt="link" 
+      className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+    />
+    </a>
 
+    <span className="text-sm text-gray-600 font-medium">팀 프로젝트(7명)</span><span className="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded border border-green-100 italic">
+      🦁 멋쟁이사자처럼 10기 해커톤 참여작
+    </span>
+  </div>
+  <span className="text-sm text-gray-500 tabular-nums">2022.01. ~ 2022.12.</span>
+</div>
+    <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+      <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack: React, JavaScript, CSS, Django, Python, REST API, MySQL, GitHUB
+      </p>
+        <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+          
+            <li>
+              <strong>역할 :</strong> 사용자 인증 시스템(로그인, 회원가입, ID/PW 찾기) 전반의 프론트엔드 로직 설계 및 구현
+            </li>
+            <li>
+              멋쟁이 사자처럼 10기 Fronte-End 운영진으로 활동할 때 해커톤에 참여하여 '기억조각'이라는 소중한 추억을 조각처럼 저장하고 공유하는 커뮤니티형 웹 서비스를 구현
+            </li>
+            <li>
+              <strong>리팩토링 :</strong> 코드 퀄리티 향상 및 컴포넌트 최적화를 위한 <a href='https://github.com/kshksh723/fragment_of_memory.git' className='underline' target='_blank'>'기억조각 리팩토링'</a>을 진행할 예정입니다.
+            </li>
+          </ul>
+    </ul>
+
+<div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+  <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+    <span className="font-bold text-gray-900 text-base md:text-lg">친구들과 함께 쓰는 추억의 교환일기 APP</span>
+       <span className="text-sm text-gray-600 font-medium">팀 프로젝트(3명)</span>
+    <span className="text-[10px] md:text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded border border-green-200">
+      🏆 공모전 2관왕 (우수상 & 인기상)
+    </span>
+  </div>
+  <span className="text-sm text-gray-500 tabular-nums">2023.09. ~ 2023.12.</span>
+</div>
+
+<ul className="list-disc ml-13 text-gray-800 space-y-2 text-sm leading-relaxed">
+  <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack: React-Native
+      </p>
+  <li>
+    <strong>성과 :</strong> 
+    <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+      <li><strong>[기술력]</strong> (교내 공모전) 화려한 창업 아이디어 공모전 <strong>우수상</strong> 수상</li>
+      <li><strong>[대중성]</strong> (지역 공모전) 광주전남혁신플랫폼 지역 혁신본부 동아리 성과 보고 전시 발표회 <strong>인기상</strong> 수상</li>
+      <li>
+        <a href="http://www.ihopenews.com/news/articleView.html?idxno=215994" target='_blank' className="group inline-flex items-center gap-1 text-black-600 font-bold underline decoration-1 underline-offset-4">
+          관련 뉴스 기사 확인
+          <img src={projectLink} className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-all" />
+        </a>
+      </li>
+       <li>
+    <strong>(교내 공모전) 화려한 창업 아이디어 공모전 :</strong> 
+    <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+      <li>MyBatis와 SQL <code>BETWEEN</code> 연산을 활용한 커스텀 <strong>페이징 처리</strong> 및 검색 로직 구축</li>
+      <li>SmartEditor2 연동 및 파일 업로드/원본명 유지 다운로드 시스템 구현</li>
+      <li>관리자 예외 처리가 포함된 중복 조회수 방지 로직 적용</li>
+    </ul>
+  </li> 
+    </ul>
+  </li>
+  {/* 기존 역할 및 기술 설명... */}
+</ul>
 
             <div className="flex justify-end gap-4">
               {/* 클릭 시 상태 업데이트 */}
@@ -364,6 +443,6 @@ return (
         </div>
     </div>
     </div>
-     );   
+    );   
 }
 export default Windowsboxwhite;
