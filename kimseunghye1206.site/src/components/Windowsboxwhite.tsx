@@ -145,19 +145,30 @@ function Windowsboxwhite () {
     </ul>
   </div>
 </section>
-    <h1 className="text-xl font-bold mb-4 pb-1 mt-6  border-b border-gray-200"> Channel. </h1>
-    <p className="p-2 flex text-gray-700 text-sm mb-3 leading-relaxed">
-      GITHUB :  
-      <a href="https://github.com/kshksh723" target="_blank" className="ml-3 underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
-        https://github.com/kshksh723
-      </a>
-    </p>
-    <p className="p-2 flex text-gray-700 text-sm mb-3 leading-relaxed">
-      TISTORY :  
-      <a href="https://it-xxsh.tistory.com/" target="_blank" className="ml-3 underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
-        https://it-xxsh.tistory.com/
-      </a>
-    </p>
+  <h1 className="text-xl font-bold mb-4 pb-1 mt-6 border-b border-gray-200">Channel.</h1>
+
+<div className="space-y-4 p-2">
+  <div className="flex flex-col md:flex-row text-sm text-gray-700">
+    <span className="font-bold w-20 shrink-0">GITHUB :</span>
+    <a href="https://github.com/kshksh723" target="_blank" className="break-all underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
+      https://github.com/kshksh723
+    </a>
+  </div>
+
+  <div className="flex flex-col md:flex-row text-sm text-gray-700">
+    <span className="font-bold w-20 shrink-0">TISTORY :</span>
+    <a href="https://it-xxsh.tistory.com/" target="_blank" className="break-all underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
+      https://it-xxsh.tistory.com/
+    </a>
+  </div>
+
+  <div className="flex flex-col md:flex-row text-sm text-gray-700">
+    <span className="font-bold w-20 shrink-0">VELOG :</span>
+    <a href="https://velog.io/@kshksh723/posts" target="_blank" className="break-all underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
+      https://velog.io/@kshksh723/posts
+    </a>
+  </div>
+</div>
   <div className="mt-8 mb-6 leading-relaxed text-black ">
   <p className="text-xl font-bold  pb-1  border-b border-gray-200"> Tech Stacks. </p>
   <div className="p-4 text-sm">
