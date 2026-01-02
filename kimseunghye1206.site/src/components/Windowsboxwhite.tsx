@@ -83,13 +83,12 @@ function Windowsboxwhite () {
   </div>
 </div>
  <section>
-  <h3 className="text-xl mt-6 font-bold mb-4 pb-1 border-b border-gray-200">Career.</h3>
+  <h3 className="text-lg md:text-xl mt-6 font-bold mb-4 pb-1 border-b border-gray-200">Career.</h3>
   {/* 비브이에스 */}
-  <div className="mb-8">
-    
-    <div className="flex justify-between items-baseline mb-2 px-2">
-      <div className="flex items-baseline gap-4">
-        <span className="text-lg font-bold">비브이에스</span>
+  <div className="mb-8 px-1 md:px-2">
+    <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+              <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+        <span className="text-md md:text-lg text-lg font-bold">비브이에스</span>
         <span className="text-sm text-gray-600 font-medium">홈페이지 콘텐츠 운영 및 유지보수</span>
       </div>
       <span className="text-sm text-gray-500 tabular-nums">2025.07. ~ 2025.09.  (3개월)</span>
@@ -115,9 +114,9 @@ function Windowsboxwhite () {
   </div>  
 
   {/* 디와이정보기술 */}
-  <div className="mb-8">
-    <div className="flex justify-between items-baseline mb-2 px-2">
-      <div className="flex items-baseline gap-4">
+  <div className="mb-8 px-1 md:px-2">
+    <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+              <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
         <span className="text-lg font-bold">디와이정보기술</span>
         <span className="text-sm text-gray-600 font-medium">SI 공공사업팀</span>
       </div>
@@ -157,12 +156,6 @@ function Windowsboxwhite () {
       TISTORY :  
       <a href="https://it-xxsh.tistory.com/" target="_blank" className="ml-3 underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
         https://it-xxsh.tistory.com/
-      </a>
-    </p>
-    <p className="p-2 flex text-gray-700 text-sm mb-2 leading-relaxed">
-      VELOG :  
-      <a href="https://velog.io/@kshksh723/posts" target="_blank" className="ml-3 underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
-        https://velog.io/@kshksh723/posts
       </a>
     </p>
   <div className="mt-8 mb-6 leading-relaxed text-black ">
