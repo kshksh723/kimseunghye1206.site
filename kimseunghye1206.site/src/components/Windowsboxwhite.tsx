@@ -100,7 +100,7 @@ return (
     <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
               <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
         <span className="font-bold text-gray-900 text-base md:text-lg">비브이에스</span>
-        <span className="text-sm text-gray-600 font-medium">홈페이지 콘텐츠 운영 및 유지보수</span>
+        <span className="text-sm text-gray-600 font-medium">기획실</span>
       </div>
       <span className="text-sm text-gray-500 tabular-nums">2025.07. ~ 2025.09.  (3개월)</span>
     </div>
@@ -110,7 +110,7 @@ return (
         Stack:  Java, eGovFrame, MyBatis, Oracle, JavaScript, CSS, HTML
       </p>
       <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
-        <li>PMS 및 유선 요청을 통한 홈페이지 콘텐츠 유지보수 관련 반영 업무 담당</li>
+        <li>PMS 및 유선 요청을 통한 홈페이지 콘텐츠 유지보수 반영 업무 담당</li>
         <li>
           CMS(콘텐츠 관리 시스템)을 활용한 콘텐츠 수정 및 요청사항 반영
         </li>
