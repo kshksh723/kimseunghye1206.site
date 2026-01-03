@@ -635,28 +635,18 @@ return (
       : 2021.05. ~ 2022.01.
     </span>
   </div>
-
-  <ul className="ml-8 list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
+<ul className="ml-8 list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
     <li>
-      <strong>교내 서점 홈페이지 '사고파' 제작 (팀명 : 판교가자)</strong>
-       <p className="text-sm font-mono text-blue-600 mt-1">
-        Stack:  React, Firebase, Spring Framework
-      </p>
+      <strong>서비스 기획 및 설계 :</strong> 
       <ul className="ml-5 list-[circle] space-y-1.5 mt-1 text-gray-700">
-        <li>취업을 위한 동아리이자 팀원들과 모여 공모전 참여와 스터디를 위해 참여</li>
-        <li><strong>주요 구현 :</strong> 전문 서적 및 공식 문서를 참고하여 환경 설정부터 UI 컴포넌트 설계, 기능 구현</li>
-        <li><strong>협업 방식 :</strong> 엑셀을 활용한 구현 기능 명세화 및 실험실 소속 팀원 간의 일정 공유로 협업 효율 증대</li>
-        <li>
-          <a href="https://github.com/lse0522/sagopa_" target="_blank" className="text-black-600 font-bold underline decoration-1 underline-offset-4 hover:text-black-800">
-            GitHub 저장소 바로가기
-          </a>
-        </li>
+        <li>Kakao Oven을 활용한 사용자 인터페이스 설계 및 인터렉티브 프로토타이핑 수행</li>
       </ul>
     </li>
     <li>
-      <strong>학습 활동 (팀명 : 컴공진단)</strong> 
-      <ul className="ml-5 list-[circle] space-y-1 mt-1 text-gray-700">
-        <li>비대면(Zoom) 화상 스터디를 통한 정보처리기사 등 전공 자격증 취득 및 알고리즘 문제 풀이</li>
+      <strong>기술 공모전 참여 :</strong> 
+      <ul className="ml-5 list-[circle] space-y-1.5 mt-1 text-gray-700">
+        <li>Python 기반 소형 객체 인지 AI 공모전 참여 및 데이터 그리드 레이블링 시각화</li>
+        <li>이미지 내 노이즈(낙서) 제거를 통한 텍스트 인지 모델 연구로 데이터 처리 프로세스 이해</li>
       </ul>
     </li>
   </ul>
