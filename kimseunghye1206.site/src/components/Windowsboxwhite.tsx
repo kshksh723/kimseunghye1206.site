@@ -395,7 +395,7 @@ return (
 
 <div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
   <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
-    <span className="underline font-bold text-gray-900 text-base md:text-lg">친구들과 함께 쓰는 추억의 교환일기 APP</span>
+    <span className="font-bold text-gray-900 text-base md:text-lg">친구들과 함께 쓰는 추억의 교환일기 APP</span>
        <span className="text-sm text-gray-600 font-medium">팀 프로젝트(3명)</span>
     <span className="text-[10px] md:text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded border border-green-200">
       🏆 공모전 2관왕 (우수상 & 인기상)
@@ -426,7 +426,7 @@ return (
         target='_blank'
         className="group relative flex items-center w-fit cursor-pointer"
     >
-    <span className="font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
+    <span className="underline font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
      🏆 (교내 공모전) 화려한 창업 아이디어 공모전
     </span>
     <img 
@@ -456,7 +456,7 @@ return (
         target='_blank'
         className="group relative flex items-center w-fit cursor-pointer"
     >
-      <span className="font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
+      <span className="underline font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
       🏆 (지역 공모전) 광주전남혁신플랫폼 지역 혁신본부 동아리 성과 보고 전시 발표회
       </span>
     <img 
