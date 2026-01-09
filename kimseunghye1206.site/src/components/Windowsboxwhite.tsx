@@ -384,7 +384,7 @@ return (
       🦁 멋쟁이사자처럼 10기 해커톤 참여작
     </span>
   </div>
-  <span className="text-sm text-gray-500 tabular-nums">2022.01. ~ 2022.12.</span>
+  <span className="text-sm text-gray-500 tabular-nums">2022.08. ~ 2022.08.</span>
 </div>
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
       <p className="text-sm font-mono text-blue-600 mt-1">
@@ -606,7 +606,7 @@ return (
        <span className="text-sm text-gray-600 font-medium">팀 프로젝트</span>
     </div>
     <span className="text-xs md:text-sm text-gray-500 tabular-nums whitespace-nowrap self-start md:self-auto">
-      2021.06. — 2022.02.
+      2021.06. ~ 2022.02.
     </span>
   </div>
 
