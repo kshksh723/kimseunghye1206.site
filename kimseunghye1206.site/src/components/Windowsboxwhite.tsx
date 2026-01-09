@@ -359,7 +359,7 @@ return (
               <strong>외부 API 활용 :</strong> 카카오 주소 찾기 API 및 SMS(문자) 발송 API 연동을 통한 서비스 편의성 강화
             </li>
             <li>
-              <a href='https://github.com/kshksh723/GoGoDak?tab=readme-ov-file#-%EC%A3%BC%EC%9A%94-%ED%99%94%EB%A9%B4-key-screens' target='_blank' className='underline'>구현 화면</a>
+              <a href='https://github.com/kshksh723/GoGoDak?tab=readme-ov-file#-%EA%B5%AC%ED%98%84-%ED%99%94%EB%A9%B4-key-screens' target='_blank' className='underline'>구현 화면</a>
             </li>
           </ul>
     </ul>
