@@ -29,7 +29,7 @@ return (
         
   <div className="flex-1 bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-10 overflow-y-auto scrollbar-custom p-6 md:p-10 
         overflow-y-auto custom-scrollbar">
- {/* <div className='flex items-center justify-start md:justify-end'>
+ <div className='flex items-center justify-start md:justify-end'>
   <img 
     src={pdf} 
     alt="PDF Icon" 
@@ -40,7 +40,7 @@ return (
     fileName='김승혜_포트폴리오.pdf'
     title="Portfolio PDF DownLoad"
   />
-</div> */}
+</div>
         <h2 className="text-black text-3xl font-extrabold">Kim Seung Hye</h2>
                         <p className="text-gray-500/68  font-light">꾸준히 성장하는 개발자</p>
                         
@@ -83,7 +83,7 @@ return (
   <div className="px-2">
     <div className="flex flex-col md:flex-row md:justify-between md:items-baseline">
       <div className="flex items-baseline gap-2">
-        <span className="font-bold text-gray-900 text-base md:text-lg">대학교</span>
+        <span className="font-bold text-gray-900 text-base md:text-lg">순천대학교</span>
         <span className="text-[10px] md:text-xs font-normal text-gray-500">(편입)</span>
       </div>
       <span className="text-[11px] md:text-sm text-gray-500 font-mono mt-1 md:mt-0">2021.03. ~ 2023.02.</span>
@@ -94,7 +94,7 @@ return (
   {/* 대학교 (전주비전대) */}
   <div className="px-2">
     <div className="flex flex-col md:flex-row md:justify-between md:items-baseline">
-      <span className="font-bold text-gray-900 text-base md:text-lg">대학교</span>
+      <span className="font-bold text-gray-900 text-base md:text-lg">전주비전대학교</span>
       <span className="text-[11px] md:text-sm text-gray-500 font-mono mt-1 md:mt-0">2018.03. ~ 2021.02.</span>
     </div>
     <p className="text-xs md:text-sm font-medium text-gray-800 leading-relaxed">컴퓨터정보과 졸업</p>
@@ -557,7 +557,7 @@ return (
   <p className="text-[11px] text-gray-400 italic mb-2">
     * 아래 활동명을 클릭하면 관련 링크(GitHub, 기사, 문서 등)로 연결됩니다.
   </p>
-  {/* <div className="mb-8 mt-3 px-1 md:px-2">
+  <div className="mb-8 mt-3 px-1 md:px-2">
       <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
       <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
             <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
@@ -579,7 +579,7 @@ return (
           </li>
         </ul>
       </ul>
-  </div> */}
+  </div>
 </div>
  <div className="mb-8 mt-3 px-1 md:px-2">
       <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
